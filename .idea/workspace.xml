@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="first">
-      <change afterPath="$PROJECT_DIR$/02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onenpc/springframework/BeanDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/onenpc/springframework/BeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/onenpc/springframework/test/ApiTeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/onenpc/springframework/test/bean/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/onenpc/springframework/BeanDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/onenpc/springframework/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/onenpc/springframework/test/ApiTeat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/onenpc/springframework/test/bean/UserService.class" beforeDir="false" />
-    </list>
+    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +136,7 @@
       <workItem from="1686823211597" duration="133000" />
       <workItem from="1686882759556" duration="5167000" />
       <workItem from="1686901693068" duration="89000" />
-      <workItem from="1687142271942" duration="1636000" />
+      <workItem from="1687142271942" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1686823287835</created>
@@ -162,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686823287835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1687143969530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687143969530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2">
+      <created>1687144129908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687144129908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
