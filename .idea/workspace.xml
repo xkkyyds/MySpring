@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="" />
+    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="first">
+      <change afterPath="$PROJECT_DIR$/02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onenpc/springframework/BeanDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onenpc/springframework/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/onenpc/springframework/test/ApiTeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/onenpc/springframework/test/bean/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onenpc/springframework/BeanDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onenpc/springframework/BeanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/onenpc/springframework/test/ApiTeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/onenpc/springframework/test/bean/UserService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +42,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\apache-maven-3.8.6\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -49,12 +67,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDK 位置" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -62,7 +80,12 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="onenpc.springframework.beans.factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory">
     <configuration name="ApiTeat.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mySpring" />
       <extension name="coverage">
@@ -79,8 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onenpc.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="onenpc.springframework.test.bean" />
+      <option name="MAIN_CLASS_NAME" value="onenpc.springframework.test.bean.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mySpring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mySpring" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
         <item itemvalue="JUnit.ApiTeat.test_BeanFactory" />
       </list>
     </recent_temporary>
@@ -97,7 +150,19 @@
       <option name="presentableId" value="Default" />
       <updated>1686818937953</updated>
       <workItem from="1686818941360" duration="4097000" />
+      <workItem from="1686823211597" duration="133000" />
+      <workItem from="1686882759556" duration="5167000" />
+      <workItem from="1686901693068" duration="89000" />
+      <workItem from="1687142271942" duration="1636000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1686823287835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686823287835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
