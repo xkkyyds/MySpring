@@ -14,10 +14,10 @@ public class ApiTest {
 
         factory.registerBeanDefinition("userservice",beanDefinition);
 
-        UserService userservice = (UserService)factory.getBean("userservice");
+        UserService userservice = (UserService)factory.getBean("userservice","aaa");
 
-//        userservice.queryUserInfo();
+        userservice.queryUserInfo();
 
-        factory.getSingleton("userservice");
+//        factory.getSingleton("userservice");
     }
 }

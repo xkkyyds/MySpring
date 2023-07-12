@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="2" />
+    <list default="true" id="90e50dd7-7d3a-4ed0-82d5-dac1cfc8010a" name="变更" comment="2">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/main/java/onenpc/springframework/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/test/java/onenpc/springframework/test/bean/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/src/test/java/onenpc/springframework/test/bean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/02/src/test/java/onenpc/springframework/test/bean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/target/test-classes/onenpc/springframework/test/bean/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/02/target/test-classes/onenpc/springframework/test/bean/ApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/target/test-classes/onenpc/springframework/test/bean/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/02/target/test-classes/onenpc/springframework/test/bean/UserService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +73,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/small-spring-step-04/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,11 +89,15 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\mySpring\03" />
+      <recent name="D:\code\mySpring\02" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="onenpc.springframework.beans.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory">
+  <component name="RunManager" selected="JUnit.ApiTest.test_BeanFactory (2)">
     <configuration name="ApiTeat.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mySpring" />
       <extension name="coverage">
@@ -79,6 +108,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="onenpc.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="onenpc.springframework.test.ApiTeat" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onenpc.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="onenpc.springframework.test.bean" />
+      <option name="MAIN_CLASS_NAME" value="onenpc.springframework.test.bean.ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onenpc.springframework.test.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="onenpc.springframework.test.bean" />
+      <option name="MAIN_CLASS_NAME" value="onenpc.springframework.test.bean.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_BeanFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="onenpc.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="onenpc.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="onenpc.springframework.test.ApiTest" />
       <option name="METHOD_NAME" value="test_BeanFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -116,6 +192,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (2)" />
+        <item itemvalue="JUnit.ApiTest" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory (1)" />
         <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
         <item itemvalue="JUnit.ApiTeat.test_BeanFactory" />
       </list>
@@ -136,7 +215,9 @@
       <workItem from="1686823211597" duration="133000" />
       <workItem from="1686882759556" duration="5167000" />
       <workItem from="1686901693068" duration="89000" />
-      <workItem from="1687142271942" duration="1988000" />
+      <workItem from="1687142271942" duration="5004000" />
+      <workItem from="1687156603723" duration="7179000" />
+      <workItem from="1689159819152" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1686823287835</created>
@@ -159,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687144129908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1687144348184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687144348184</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +280,21 @@
     <MESSAGE value="first" />
     <MESSAGE value="2" />
     <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02/src/main/java/onenpc/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03/src/test/java/onenpc/springframework/test/bean/ApiTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
